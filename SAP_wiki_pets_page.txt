@@ -724,7 +724,7 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 
 {{:Pets/row
 | pet = {{IconSAP|Tabby Cat|size=40px}}
-| attack = 4| health = 3
+| attack = 4 | health = 3
 | puppypack = yes
 | '''Gain perk''' → Give friends +1 {{IconSAP|attack|nolink=yes}} until end of battle.
 | '''Gain perk''' → Give friends +2 {{IconSAP|attack|nolink=yes}} until end of battle.
@@ -1625,7 +1625,7 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 {{:Pets/row
 | pet = {{IconSAP|Cow|size=40px}}
 | attack = 4 | health = 6
-| turtlepack = yes 
+| turtlepack = yes
 | '''Buy''' → Replace food shop with 2 free {{IconSAP|Milk|size=x25px}} that gives +1 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
 | '''Buy''' → Replace food shop with 2 free {{IconSAP|Milk|size=x25px}} that gives +2 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}}.
 | '''Buy''' → Replace food shop with 2 free {{IconSAP|Milk|size=x25px}} that gives +3 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
@@ -1968,9 +1968,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Sting Ray|size=40px}}
 | attack = 4 | health = 6
 | puppypack = yes
-| '''Buy''' → Choose one level 1 toy from tier 5. 
-| '''Buy''' → Choose one level 2 toy from tier 5. 
-| '''Buy''' → Choose one level 3 toy from tier 5. 
+| '''Buy''' → Choose one level 1 toy from tier 5.
+| '''Buy''' → Choose one level 2 toy from tier 5.
+| '''Buy''' → Choose one level 3 toy from tier 5.
 }}
 
 {{:Pets/row
@@ -2113,7 +2113,7 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | attack = 5 | health = 4
 | turtlepack = yes
 | Adjacent friendly abilities deal 3 {{IconSAP|damage|nolink=yes}} extra.
-| Adjacent friendly abilities deal 6 {{IconSAP|damage|nolink=yes}} extra. 
+| Adjacent friendly abilities deal 6 {{IconSAP|damage|nolink=yes}} extra.
 | Adjacent friendly abilities deal 9 {{IconSAP|damage|nolink=yes}} extra.
 }}
 
@@ -2131,7 +2131,7 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | attack = 3 | health = 3
 | goldenpack = yes
 | '''Start of turn''' → Spend 1 {{IconSAP|gold}} to activate '''Buy''' ability on the nearest friend ahead.
-| '''Start of turn''' → Spend 1 {{IconSAP|gold}} to activate '''Buy''' ability on the nearest friend ahead. Triggers 2 times. 
+| '''Start of turn''' → Spend 1 {{IconSAP|gold}} to activate '''Buy''' ability on the nearest friend ahead. Triggers 2 times.
 | '''Start of turn''' → Spend 1 {{IconSAP|gold}} to activate '''Buy''' ability on the nearest friend ahead. Triggers 3 times.
 }}
 
@@ -2193,9 +2193,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Warthog|size=40px}}
 | attack = 9 | health = 6
 | goldenpack = yes
-| '''Faint''' → Give random friends +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}} for every 3 attack this has. 
-| '''Faint''' → Give random friends +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} for every 3 attack this has.  
-| '''Faint''' → Give random friends +3 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}} for every 3 attack this has. 
+| '''Faint''' → Give random friends +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}} for every 3 attack this has.
+| '''Faint''' → Give random friends +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} for every 3 attack this has.
+| '''Faint''' → Give random friends +3 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}} for every 3 attack this has.
 }}
 
 {{:Pets/row
@@ -2203,12 +2203,12 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | attack = 8 | health = 6
 | goldenpack = yes
 | '''Before attack''' → Spend 4 {{IconSAP|Trumpet|name=trumpets}} to gain {{IconSAP|Coconut|Coconut Perk}}. Works 1 time per battle.
-| '''Before attack''' → Spend 4 {{IconSAP|Trumpet|name=trumpets}} to gain {{IconSAP|Coconut|Coconut Perk}}. Works 2 times per battle. 
+| '''Before attack''' → Spend 4 {{IconSAP|Trumpet|name=trumpets}} to gain {{IconSAP|Coconut|Coconut Perk}}. Works 2 times per battle.
 | '''Before attack''' → Spend 4 {{IconSAP|Trumpet|name=trumpets}} to gain {{IconSAP|Coconut|Coconut Perk}}. Works 3 times per battle.
 }}
 
 {{:Pets/row
-| pet = {{IconSAP|Hammershark|size=40px}}
+| pet = {{IconSAP|Hammerhead Shark|size=40px}}
 | attack = 5 | health = 5
 | starpack = yes
 | '''Start of turn''' → If this has a level 3 friend, gain +3 {{IconSAP|gold|nolink=yes}}.

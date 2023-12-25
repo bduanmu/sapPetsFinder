@@ -11,6 +11,8 @@ HEALTH_INDICATOR = '| health = '
 PACK_SEP = ' | '
 PACK_INDICATOR = 'pack'
 ABILITY_INDICATOR = "''' â†"
+ICON_INDICATOR = "{{IconSAP|"
+ICON_END = "}}"
 
 line = sap_wiki.readline()
 pets = []
@@ -41,14 +43,20 @@ while line != '':
         lvl1 = 'Other'
         if ABILITY_INDICATOR in line:
             lvl1 = line[5:line.find(ABILITY_INDICATOR)]
+            if ICON_INDICATOR in lvl1:
+                lvl1 = lvl1[:lvl1.find(ICON_INDICATOR)] + lvl1[lvl1.find(ICON_INDICATOR) + len(ICON_INDICATOR):lvl1.find(ICON_END)] + lvl1[lvl1.find(ICON_END) + len(ICON_END):]
         line = sap_wiki.readline()
         lvl2 = 'Other'
         if ABILITY_INDICATOR in line:
             lvl2 = line[5:line.find(ABILITY_INDICATOR)]
+            if ICON_INDICATOR in lvl2:
+                lvl2 = lvl2[:lvl2.find(ICON_INDICATOR)] + lvl2[lvl2.find(ICON_INDICATOR) + len(ICON_INDICATOR):lvl2.find(ICON_END)] + lvl2[lvl2.find(ICON_END) + len(ICON_END):]
         line = sap_wiki.readline()
         lvl3 = 'Other'
         if ABILITY_INDICATOR in line:
             lvl3 = line[5:line.find(ABILITY_INDICATOR)]
+            if ICON_INDICATOR in lvl3:
+                lvl3 = lvl3[:lvl3.find(ICON_INDICATOR)] + lvl3[lvl3.find(ICON_INDICATOR) + len(ICON_INDICATOR):lvl3.find(ICON_END)] + lvl3[lvl3.find(ICON_END) + len(ICON_END):]
         ability = 'Mixed'
         if lvl1 == lvl2 == lvl3:
             ability = lvl1
@@ -58,4 +66,5 @@ while line != '':
 
 print(pets)
 print([pet['name'] for pet in pets])
+print([pet['name'].lower() for pet in pets])
 print(pets[randint(1, 254)])
