@@ -1,4 +1,6 @@
 from random import randint
+import requests as requests
+from bs4 import BeautifulSoup
 
 sap_wiki = open("SAP_wiki_pets_page.txt", "r")
 
@@ -65,6 +67,26 @@ while line != '':
     line = sap_wiki.readline()
 
 print(pets)
-print([pet['name'] for pet in pets])
+pet_names = [pet['name'] for pet in pets]
+print(pet_names)
 print([pet['name'].lower() for pet in pets])
 print(pets[randint(1, 254)])
+
+
+IMAGE_LINK_INDICATOR = 'src="/images'
+
+result = requests.get("https://superautopets.wiki.gg/wiki/File:Mantis Shrimp.png")
+doc = BeautifulSoup(result.text, 'html.parser')
+# print(doc.prettify())
+pet_images = []
+for pet_name in pet_names:
+    URL = "https://superautopets.wiki.gg/wiki/File:" + pet_name + ".png"
+    result = requests.get(URL)
+    doc = BeautifulSoup(result.text, 'html.parser')
+    beg_ind = doc.prettify().find(IMAGE_LINK_INDICATOR)
+    # print(beg_ind)
+    pet_images.append("https://superautopets.wiki.gg" + doc.prettify()[beg_ind + 5:doc.prettify().find('?', beg_ind + len(IMAGE_LINK_INDICATOR) + 1)])
+    # print(URL)
+    print(pet_name)
+
+print(pet_images)
