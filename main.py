@@ -33,6 +33,8 @@ while line != '':
             packs[i].strip()
             packs[i] = packs[i][:packs[i].find(PACK_INDICATOR)]
             packs[i] = packs[i][0].upper() + packs[i][1:] + ' Pack'
+        if "Weekly Pack" in packs and len(packs) != 1:
+            packs.remove("Weekly Pack")
         pet['pack'] = packs
         pets.append(pet)
         line = sap_wiki.readline()
@@ -55,4 +57,5 @@ while line != '':
     line = sap_wiki.readline()
 
 print(pets)
+print([pet['name'] for pet in pets])
 print(pets[randint(1, 254)])
