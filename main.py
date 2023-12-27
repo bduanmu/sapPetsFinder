@@ -72,21 +72,34 @@ print(pet_names)
 print([pet['name'].lower() for pet in pets])
 print(pets[randint(1, 254)])
 
+max_length = 0
+max_name = []
+for name in pet_names:
+    if len(name) > max_length:
+        max_name = [name]
+        max_length = len(name)
+    elif len(name) == max_length:
+        max_name.append(name)
+print(max_name)
 
 IMAGE_LINK_INDICATOR = 'src="/images'
 
 result = requests.get("https://superautopets.wiki.gg/wiki/File:Mantis Shrimp.png")
 doc = BeautifulSoup(result.text, 'html.parser')
-# print(doc.prettify())
+images = doc.find_all("img")
+# print(images)
 pet_images = []
 for pet_name in pet_names:
     URL = "https://superautopets.wiki.gg/wiki/File:" + pet_name + ".png"
     result = requests.get(URL)
     doc = BeautifulSoup(result.text, 'html.parser')
-    beg_ind = doc.prettify().find(IMAGE_LINK_INDICATOR)
+    # beg_ind = doc.find(IMAGE_LINK_INDICATOR)
     # print(beg_ind)
-    pet_images.append("https://superautopets.wiki.gg" + doc.prettify()[beg_ind + 5:doc.prettify().find('?', beg_ind + len(IMAGE_LINK_INDICATOR) + 1)])
+    # pet_images.append("https://superautopets.wiki.gg" + doc[beg_ind + 5:doc.find('?', beg_ind + len(IMAGE_LINK_INDICATOR) + 1)])
     # print(URL)
-    print(pet_name)
+
+    name = doc.find_all("img")[1]['src']
+    pet_images.append("https://superautopets.wiki.gg" + name[:name.find('?')])
+    print(name[:name.find('?')])
 
 print(pet_images)
