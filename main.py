@@ -1,4 +1,4 @@
-from random import randint
+import random
 import requests as requests
 from bs4 import BeautifulSoup
 
@@ -69,8 +69,13 @@ while line != '':
 print(pets)
 pet_names = [pet['name'] for pet in pets]
 print(pet_names)
-print([pet['name'].lower() for pet in pets])
-print(pets[randint(1, 254)])
+pet_names_lower = [pet['name'].lower() for pet in pets]
+print(pet_names_lower)
+pet_indices = [i for i in range(len(pet_names_lower))]
+random.shuffle(pet_indices)
+print(pet_indices)
+print(len(pet_indices), len(pet_names_lower))
+print(pets[random.randint(1, 254)])
 
 max_length = 0
 max_name = []
