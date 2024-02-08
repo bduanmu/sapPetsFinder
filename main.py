@@ -36,7 +36,7 @@ while line != '':
         for i in range(len(packs)):
             packs[i].strip()
             packs[i] = packs[i][:packs[i].find(PACK_INDICATOR)]
-            packs[i] = packs[i][0].upper() + packs[i][1:] + ' Pack'
+            packs[i] = packs[i][0].upper() + packs[i][1:].rstrip("custom") + ' Pack'
         if "Weekly Pack" in packs and len(packs) != 1:
             packs.remove("Weekly Pack")
         pet['pack'] = packs
