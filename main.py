@@ -1,4 +1,4 @@
-from random import randint
+from random import randint, shuffle
 import requests as requests
 from bs4 import BeautifulSoup
 
@@ -71,6 +71,9 @@ pet_names = [pet['name'] for pet in pets]
 print(pet_names)
 print([pet['name'].lower() for pet in pets])
 print(pets[randint(1, 254)])
+answer_list = [i for i in range(len(pets))]
+shuffle(answer_list)
+print(answer_list)
 
 
 IMAGE_LINK_INDICATOR = 'src="/images'
