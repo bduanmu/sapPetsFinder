@@ -57,7 +57,7 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 
 {{:Pets/row
 | pet = {{IconSAP|Cricket|size=40px}}
-| attack = 1 | health = 2
+| attack = 1 | health = 3
 | turtlepack = yes
 | '''Faint''' → Summon one 1/1 {{IconSAP|Zombie Cricket}}.
 | '''Faint''' → Summon one 2/2 {{IconSAP|Zombie Cricket}}.
@@ -101,15 +101,6 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 }}
 
 {{:Pets/row
-| pet = {{IconSAP|Mouse|size=40px}}
-| attack = 3 | health = 2
-| turtlepack = yes | starpack = yes
-| '''Sell''' → Stock one 1-{{IconSAP|Gold}} {{IconSAP|Apple}}.
-| '''Sell''' → Stock one 1-{{IconSAP|Gold}} {{IconSAP|Apple|name=Better Apple}}.
-| '''Sell''' → Stock one 1-{{IconSAP|Gold}} {{IconSAP|Apple|name=Best Apple}}.
-}}
-
-{{:Pets/row
 | pet = {{IconSAP|Otter|size=40px}}
 | attack = 1 | health = 3
 | turtlepack = yes
@@ -125,6 +116,114 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | '''Sell''' → Gain +1 {{IconSAP|gold|nolink=yes}}.
 | '''Sell''' → Gain +2 {{IconSAP|gold|nolink=yes}}.
 | '''Sell''' → Gain +3 {{IconSAP|gold|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Pigeon|size=40px}}
+| attack = 3 | health = 1
+| turtlepack = yes
+| '''Sell''' → Stock one free {{IconSAP|Bread Crumbs}}.
+| '''Sell''' → Stock two free {{IconSAP|Bread Crumbs}}.
+| '''Sell''' → Stock three free {{IconSAP|Bread Crumbs}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Baku|size=40px}}
+| attack = 3 | health = 2
+| unicornpack = yes
+| '''Sell''' → If turn number is even, replace [[Ailments|ailment]] on one random friend with +2 {{IconSAP|health|nolink=yes}}.
+| '''Sell''' → If turn number is even, replace [[Ailments|ailment]] on one random friend with +4 {{IconSAP|health|nolink=yes}}.
+| '''Sell''' → If turn number is even, replace [[Ailments|ailment]] on one random friend with +6 {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Axehandle Hound|size=40px}}
+| attack = 3 | health = 1
+| unicornpack = yes
+| '''Start of battle''' → If the enemy has multiple copies, deal 10 {{IconSAP|damage|nolink=yes}} to one random enemy.
+| '''Start of battle''' → If the enemy has multiple copies, deal 20 {{IconSAP|damage|nolink=yes}} to one random enemy.
+| '''Start of battle''' → If the enemy has multiple copies, deal 30 {{IconSAP|damage|nolink=yes}} to one random enemy.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Barghest|size=40px}}
+| attack = 1 | health = 3
+| unicornpack = yes
+| '''Start of battle''' → Make the last perk-less enemy {{IconSAP|Weak}}.
+| '''Start of battle''' → Make the two last perk-less enemies {{IconSAP|Weak}}.
+| '''Start of battle''' → Make the three last perk-less enemies {{IconSAP|Weak}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Tsuchinoko|size=40px}}
+| attack = 1 | health = 2
+| unicornpack = yes
+| '''Start of battle''' → Jump to the front space and gain +1 {{IconSAP|experience|nolink=yes}}.
+| '''Start of battle''' → Jump to the front space and gain +2 {{IconSAP|experience|nolink=yes}}.
+| '''Start of battle''' → Jump to the front space and gain +3 {{IconSAP|experience|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Murmel|size=40px}}
+| attack = 1 | health = 2
+| unicornpack = yes
+| '''Friend level-up''' → Gain +1 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} until end of battle.
+| '''Friend level-up''' → Gain +2 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}} until end of battle.
+| '''Friend level-up''' → Gain +3 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}} until end of battle.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Alchemedes|size=40px}}
+| attack = 1 | health = 4
+| unicornpack = yes
+| '''Start of battle''' → Give the nearest friend ahead +1 {{IconSAP|mana}}.
+| '''Start of battle''' → Give the nearest friend ahead +2 {{IconSAP|mana}}.
+| '''Start of battle''' → Give the nearest friend ahead +3 {{IconSAP|mana}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Warg|size=40px}}
+| attack = 2 | health = 2
+| unicornpack = yes
+| '''Gains mana''' → Deal 1 {{IconSAP|damage|nolink=yes}} to one random enemy.
+| '''Gains mana''' → Deal 1 {{IconSAP|damage|nolink=yes}} to two random enemies.
+| '''Gains mana''' → Deal 1 {{IconSAP|damage|nolink=yes}} to three random enemies.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Bunyip|size=40px}}
+| attack = 3 | health = 1
+| unicornpack = yes
+| '''Start of battle''' → Gain +1 {{IconSAP|health|nolink=yes}} for each time you rolled this turn, up to 3.
+| '''Start of battle''' → Gain +2 {{IconSAP|health|nolink=yes}} for each time you rolled this turn, up to 3.
+| '''Start of battle''' → Gain +3 {{IconSAP|health|nolink=yes}} for each time you rolled this turn, up to 3.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Sneaky Egg|size=40px}}
+| attack = 2 | health = 4
+| unicornpack = yes
+| '''Start of battle''' → Faint and summon one 4/2 {{IconSAP|Cracked Egg}}.
+| '''Start of battle''' → Faint and summon one 8/4 {{IconSAP|Cracked Egg}}.
+| '''Start of battle''' → Faint and summon one 12/6 {{IconSAP|Cracked Egg}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Cuddle Toad|size=40px}}
+| attack = 2 | health = 3
+| unicornpack = yes
+| '''Sell''' → Choose one witch [[Toys|toy]] that breaks after 2 turns.
+| '''Sell''' → Choose one witch [[Toys|toy]] that breaks after 4 turns.
+| '''Sell''' → Choose one witch [[Toys|toy]] that breaks after 6 turns.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Basilisk|size=40px}}
+| attack = 2 | health = 1
+| unicorncustompack = yes
+| '''Start of battle''' → Transform the nearest pet ahead to a {{IconSAP|Rock}} with +2 {{IconSAP|health|nolink=yes}}.
+| '''Start of battle''' → Transform the nearest pet ahead to a {{IconSAP|Rock}} with +4 {{IconSAP|health|nolink=yes}}.
+| '''Start of battle''' → Transform the nearest pet ahead to a {{IconSAP|Rock}} with +6 {{IconSAP|health|nolink=yes}}.
 }}
 
 {{:Pets/row
@@ -263,6 +362,15 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 }}
 
 {{:Pets/row
+| pet = {{IconSAP|Mouse|size=40px}}
+| attack = 1 | health = 2
+| starpack = yes
+| '''Sell''' → Replace shop food with one free {{IconSAP|Apple}}.
+| '''Sell''' → Replace shop food with one free {{IconSAP|Apple|name=Better Apple}}.
+| '''Sell''' → Replace shop food with one free {{IconSAP|Apple|name=Best Apple}}.
+}}
+
+{{:Pets/row
 | pet = {{IconSAP|Pillbug|size=40px}}
 | attack = 2 | health = 2
 | starpack = yes
@@ -356,7 +464,7 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 {{:Pets/row
 | pet = {{IconSAP|Sloth|size=40px}}
 | attack = 1 | health = 1
-| turtlepack = yes | goldenpack = yes | starpack = yes | puppypack = yes
+| turtlepack = yes | unicornpack=yes | goldenpack = yes | starpack = yes | puppypack = yes
 | ''"Sloth has no special ability. Is kind of lame combat-wise. But he truly believes in you!"''
 | ''"Sloth has no special ability. Is kind of lame combat-wise. But he truly believes in you!"''
 | ''"Sloth has no special ability. Is kind of lame combat-wise. But he truly believes in you!"''
@@ -419,7 +527,7 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 {{:Pets/row
 | pet = {{IconSAP|Peacock|size=40px}}
 | attack = 2 | health = 5
-| turtlepack = yes 
+| turtlepack = yes
 | '''Hurt''' → Gain +4 {{IconSAP|attack|nolink=yes}}.
 | '''Hurt''' → Gain +8 {{IconSAP|attack|nolink=yes}}.
 | '''Hurt''' → Gain +12 {{IconSAP|attack|nolink=yes}}.
@@ -471,6 +579,132 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 }}
 
 {{:Pets/row
+| pet = {{IconSAP|Ghost Kitten|size=40px}}
+| attack = 3 | health = 2
+| unicornpack = yes
+| Take 3 less damage from abilities.
+| Take 6 less damage from abilities.
+| Take 9 less damage from abilities.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Frost Wolf|size=40px}}
+| attack = 1 | health = 3
+| unicornpack = yes
+| '''Faint''' → Make the first enemy {{IconSAP|Cold}}.
+| '''Faint''' → Make the two first enemies {{IconSAP|Cold}}.
+| '''Faint''' → Make the three first enemies {{IconSAP|Cold}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Mothman|size=40px}}
+| attack = 3 | health = 3
+| unicornpack = yes
+| '''Faint''' → Deal 2 {{IconSAP|damage|nolink=yes}} to one enemy with ailments.
+| '''Faint''' → Deal 2 {{IconSAP|damage|nolink=yes}} to two enemies with ailments.
+| '''Faint''' → Deal 2 {{IconSAP|damage|nolink=yes}} to three enemies with ailments.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Drop Bear|size=40px}}
+| attack = 2 | health = 2
+| unicornpack = yes
+| '''Empty front space''' → Jump to the front and deal 3 {{IconSAP|damage|nolink=yes}} to the last enemy in battle.
+| '''Empty front space''' → Jump to the front and deal 6 {{IconSAP|damage|nolink=yes}} to the last enemy in battle.
+| '''Empty front space''' → Jump to the front and deal 9 {{IconSAP|damage|nolink=yes}} to the last enemy in battle.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Jackalope|size=40px}}
+| attack = 1 | health = 2
+| unicornpack = yes
+| '''Friend jumped''' → Deal 2 {{IconSAP|damage|nolink=yes}} to one random enemy.
+| '''Friend jumped''' → Deal 4 {{IconSAP|damage|nolink=yes}} to one random enemy.
+| '''Friend jumped''' → Deal 6 {{IconSAP|damage|nolink=yes}} to one random enemy.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Lucky Cat|size=40px}}
+| attack = 3 | health = 4
+| unicornpack = yes
+| '''Level-up''' → Gain +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} now and +1 {{IconSAP|gold}} next turn.
+| '''Level-up''' → Gain +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} now and +1 {{IconSAP|gold}} next turn.
+| No ability.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Ogopogo|size=40px}}
+| attack = 1 | health = 5
+| unicornpack = yes
+| '''Start of battle''' → Give front-most friend +1 {{IconSAP|experience|nolink=yes}}.
+| '''Start of battle''' → Give front-most friend +2 {{IconSAP|experience|nolink=yes}}.
+| '''Start of battle''' → Give front-most friend +3 {{IconSAP|experience|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Thunderbird|size=40px}}
+| attack = 2 | health = 3
+| unicornpack = yes
+| '''Start of battle''' → Give the front-most friend +3 {{IconSAP|mana}}.
+| '''Start of battle''' → Give the front-most friend +6 {{IconSAP|mana}}.
+| '''Start of battle''' → Give the front-most friend +9 {{IconSAP|mana}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Gargoyle|size=40px}}
+| attack = 2 | health = 4
+| unicornpack = yes
+| '''Faint''' → Spend {{IconSAP|mana}} to give the nearest friend behind +1 {{IconSAP|health|nolink=yes}} per mana.
+| '''Faint''' → Spend {{IconSAP|mana}} to give the nearest friend behind +2 {{IconSAP|health|nolink=yes}} per mana.
+| '''Faint''' → Spend {{IconSAP|mana}} to give the nearest friend behind +3 {{IconSAP|health|nolink=yes}} per mana.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Bigfoot|size=40px}}
+| attack = 2 | health = 5
+| unicornpack = yes
+| '''Faint''' → Gain one free roll next turn.
+| '''Faint''' → Gain two free rolls next turn.
+| '''Faint''' → Gain three free rolls next turn.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Nightcrawler|size=40px}}
+| attack = 1 | health = 1
+| unicorncustompack = yes
+| '''Faint''' → Summon one Crawler with 3 {{IconSAP|attack|nolink=yes}}, and +1 {{IconSAP|health|nolink=yes}} for each friend summoned this turn.
+| '''Faint''' → Summon one Crawler with 6 {{IconSAP|attack|nolink=yes}}, and +2 {{IconSAP|health|nolink=yes}} for each friend summoned this turn.
+| '''Faint''' → Summon one Crawler with 9 {{IconSAP|attack|nolink=yes}}, and +3 {{IconSAP|health|nolink=yes}} for each friend summoned this turn.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Sphinx|size=40px}}
+| attack = 2 | health = 5
+| unicorncustompack = yes
+| '''Buy''' → Choose one level 1 adventurous {{IconSAP|toys|mode=text|name=toy}}.
+| '''Buy''' → Choose one level 2 adventurous {{IconSAP|toys|mode=text|name=toy}}.
+| '''Buy''' → Choose one level 3 adventurous {{IconSAP|toys|mode=text|name=toy}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Chupacabra|size=40px}}
+| attack = 4 | health = 2
+| unicorncustompack = yes
+| '''Knock out''' → Give +1 {{IconSAP|health|nolink=yes}} to one random friend. Triggers 3 times.
+| '''Knock out''' → Give +1 {{IconSAP|health|nolink=yes}} to one random friend. Triggers 6 times.
+| '''Knock out''' → Give +1 {{IconSAP|health|nolink=yes}} to one random friend. Triggers 9 times.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Golden Beetle|size=40px}}
+| attack = 2 | health = 3
+| unicorncustompack = yes
+| '''Sell''' → Gain +1 {{IconSAP|gold}}. Triple if attack is at least 10.
+| '''Sell''' → Gain +2 {{IconSAP|gold}}. Triple if attack is at least 10.
+| '''Sell''' → Gain +3 {{IconSAP|gold}}. Triple if attack is at least 10.
+}}
+
+{{:Pets/row
 | pet = {{IconSAP|African Penguin|size=40px}}
 | attack = 1 | health = 3
 | goldenpack = yes
@@ -492,9 +726,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Door Head Ant|size=40px}}
 | attack = 2 | health = 2
 | goldenpack = yes
-| '''Empty Front Space''' → If in battle, push this to the front and gain +4 {{IconSAP|health|nolink=yes}}.
-| '''Empty Front Space''' → If in battle, push this to the front and gain +8 {{IconSAP|health|nolink=yes}}.
-| '''Empty Front Space''' → If in battle, push this to the front and gain +12 {{IconSAP|health|nolink=yes}}.
+| '''Empty front space''' → If in battle, push this to the front and gain +4 {{IconSAP|health|nolink=yes}}.
+| '''Empty front space''' → If in battle, push this to the front and gain +8 {{IconSAP|health|nolink=yes}}.
+| '''Empty front space''' → If in battle, push this to the front and gain +12 {{IconSAP|health|nolink=yes}}.
 }}
 
 {{:Pets/row
@@ -706,16 +940,16 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 
 {{:Pets/row
 | pet = {{IconSAP|Robin|size=40px}}
-| attack = 2 | health = 3 
+| attack = 2 | health = 3
 | puppypack = yes
-| '''Start of battle''' → Summon one 2/3 {{IconSAP|Nest}} with {{IconSAP|Egg|name=Egg Perk}}.
-| '''Start of battle''' → Summon one 4/6 {{IconSAP|Nest}} with {{IconSAP|Egg|name=Egg Perk}}.
-| '''Start of battle''' → Summon one 6/9 {{IconSAP|Nest}} with {{IconSAP|Egg|name=Egg Perk}}.
+| '''Start of battle''' → Summon one 2/3 level 1 {{IconSAP|Nest}} and give it {{IconSAP|Egg|name=Egg Perk}}.
+| '''Start of battle''' → Summon one 4/6 level 2 {{IconSAP|Nest}} and give it {{IconSAP|Egg|name=Egg Perk}}.
+| '''Start of battle''' → Summon one 6/9 level 3 {{IconSAP|Nest}} and give it {{IconSAP|Egg|name=Egg Perk}}.
 }}
 
 {{:Pets/row
 | pet = {{IconSAP|Shrimp|size=40px}}
-| attack = 2 | health = 3
+| attack = 2 | health = 2
 | weeklypack = yes | puppypack = yes
 | '''Friend sold''' → Give one random friend +1 {{IconSAP|health|nolink=yes}}.
 | '''Friend sold''' → Give one random friend +2 {{IconSAP|health|nolink=yes}}.
@@ -724,11 +958,11 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 
 {{:Pets/row
 | pet = {{IconSAP|Tabby Cat|size=40px}}
-| attack = 4 | health = 3
+| attack = 4 | health = 2
 | puppypack = yes
-| '''Gain perk''' → Give friends +1 {{IconSAP|attack|nolink=yes}} until end of battle.
-| '''Gain perk''' → Give friends +2 {{IconSAP|attack|nolink=yes}} until end of battle.
-| '''Gain perk''' → Give friends +3 {{IconSAP|attack|nolink=yes}} until end of battle.
+| '''Friendly gained perk''' → Give two random friends +1 {{IconSAP|health|nolink=yes}} until end of battle.
+| '''Friendly gained perk''' → Give two random friends +2 {{IconSAP|health|nolink=yes}} until end of battle.
+| '''Friendly gained perk''' → Give two random friends +3 {{IconSAP|health|nolink=yes}} until end of battle.
 }}
 
 {{:Pets/row
@@ -771,9 +1005,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Badger|size=40px}}
 | attack = 6 | health = 3
 | turtlepack = yes
-| '''Before faint''' → Deal 50% attack {{IconSAP|damage|nolink=yes}} to adjacent pets.
-| '''Before faint''' → Deal 100% attack {{IconSAP|damage|nolink=yes}} to adjacent pets.
-| '''Before faint''' → Deal 150% attack {{IconSAP|damage|nolink=yes}} to adjacent pets.
+| '''Faint''' → Deal 50% attack {{IconSAP|damage|nolink=yes}} to adjacent pets.
+| '''Faint''' → Deal 100% attack {{IconSAP|damage|nolink=yes}} to adjacent pets.
+| '''Faint''' → Deal 150% attack {{IconSAP|damage|nolink=yes}} to adjacent pets.
 }}
 
 {{:Pets/row
@@ -796,7 +1030,7 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 
 {{:Pets/row
 | pet = {{IconSAP|Dog|size=40px}}
-| attack = 2 | health = 3
+| attack = 3 | health = 2
 | turtlepack = yes
 | '''Friend summoned''' → Gain +2 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}} until end of battle.
 | '''Friend summoned''' → Gain +4 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} until end of battle.
@@ -807,9 +1041,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Dolphin|size=40px}}
 | attack = 4 | health = 3
 | turtlepack = yes
-| '''Start of battle''' → Deal 3 {{IconSAP|damage|nolink=yes}} to the lowest health enemy.
-| '''Start of battle''' → Deal 3 {{IconSAP|damage|nolink=yes}} to the lowest health enemy. Triggers 2 times.
-| '''Start of battle''' → Deal 3 {{IconSAP|damage|nolink=yes}} to the lowest health enemy. Triggers 3 times.
+| '''Start of battle''' → Deal 4 {{IconSAP|damage|nolink=yes}} to the lowest health enemy.
+| '''Start of battle''' → Deal 4 {{IconSAP|damage|nolink=yes}} to the lowest health enemy. Triggers 2 times.
+| '''Start of battle''' → Deal 4 {{IconSAP|damage|nolink=yes}} to the lowest health enemy. Triggers 3 times.
 }}
 
 {{:Pets/row
@@ -832,11 +1066,11 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 
 {{:Pets/row
 | pet = {{IconSAP|Ox|size=40px}}
-| attack = 2 | health = 4
+| attack = 1 | health = 3
 | turtlepack = yes
-| '''Friend ahead faints''' → Gain {{IconSAP|Melon|name=Melon perk}}. Works 1 time per turn.
-| '''Friend ahead faints''' → Gain {{IconSAP|Melon|name=Melon perk}}. Works 2 time per turn.
-| '''Friend ahead faints''' → Gain {{IconSAP|Melon|name=Melon perk}}. Works 3 time per turn.
+| '''Friend ahead faints''' → Gain {{IconSAP|Melon|name=Melon perk}} and +1 {{IconSAP|attack|nolink=yes}}. Works 1 time per turn.
+| '''Friend ahead faints''' → Gain {{IconSAP|Melon|name=Melon perk}} and +1 {{IconSAP|attack|nolink=yes}}. Works 2 time per turn.
+| '''Friend ahead faints''' → Gain {{IconSAP|Melon|name=Melon perk}} and +1 {{IconSAP|attack|nolink=yes}}. Works 3 time per turn.
 }}
 
 {{:Pets/row
@@ -858,12 +1092,147 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 }}
 
 {{:Pets/row
+| pet = {{IconSAP|Skeleton Dog|size=40px}}
+| attack = 3 | health = 3
+| unicornpack = yes
+| '''Faint''' → Give one random friend permanent +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}}.
+| '''Faint''' → Give two random friends permanent +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}}.
+| '''Faint''' → Give three random friends permanent +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Mandrake|size=40px}}
+| attack = 2 | health = 3
+| unicornpack = yes
+| '''Start of Battle''' → Make one tier 2 or lower '''Faint''' enemy {{IconSAP|Dazed}}.
+| '''Start of Battle''' → Make one tier 4 or lower '''Faint''' enemy {{IconSAP|Dazed}}.
+| '''Start of Battle''' → Make one tier 6 or lower '''Faint''' enemy {{IconSAP|Dazed}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Fur-Bearing Trout|size=40px}}
+| attack = 2 | health = 2
+| unicornpack = yes
+| '''Faint''' → Give {{IconSAP|Rambutan|name=Rambutan perk}} to the nearest friend behind.
+| '''Faint''' → Give {{IconSAP|Rambutan|name=Rambutan perk}} to the two nearest friends behind.
+| '''Faint''' → Give {{IconSAP|Rambutan|name=Rambutan perk}} to the three nearest friends behind.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Mana Hound|size=40px}}
+| attack = 2 | health = 5
+| unicornpack = yes
+| '''Start of battle''' → Give the nearest friend ahead +1 {{IconSAP|mana}} for each roll this turn.
+| '''Start of battle''' → Give the nearest friend ahead +2 {{IconSAP|mana}} for each roll this turn.
+| '''Start of battle''' → Give the nearest friend ahead +3 {{IconSAP|mana}} for each roll this turn.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Calygreyhound|size=40px}}
+| attack = 2 | health = 4
+| unicornpack = yes
+| '''Faint''' → Spend {{IconSAP|mana}} to remove 1 {{IconSAP|health|nolink=yes}} per mana from the two most healthy enemies.
+| '''Faint''' → Spend {{IconSAP|mana}} to remove 2 {{IconSAP|health|nolink=yes}} per mana from the two most healthy enemies.
+| '''Faint''' → Spend {{IconSAP|mana}} to remove 3 {{IconSAP|health|nolink=yes}} per mana from the two most healthy enemies.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Brain Cramp|size=40px}}
+| attack = 1 | health = 2
+| unicornpack = yes
+| '''Empty front space''' → Jump to the front and gain +2 {{IconSAP|attack|nolink=yes}} and {{IconSAP|Melon|name=Melon perk}} in battle.
+| '''Empty front space''' → Jump to the front and gain +4 {{IconSAP|attack|nolink=yes}} and {{IconSAP|Melon|name=Melon perk}} in battle.
+| '''Empty front space''' → Jump to the front and gain +6 {{IconSAP|attack|nolink=yes}} and {{IconSAP|Melon|name=Melon perk}} in battle.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Minotaur|size=40px}}
+| attack = 1 | health = 3
+| unicornpack = yes
+| '''Friend ahead attacks''' → Gain +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}} for each of the friend's level.
+| '''Friend ahead attacks''' → Gain +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} for each of the friend's level.
+| '''Friend ahead attacks''' → Gain +3 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}} for each of the friend's level.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Wyvern|size=40px}}
+| attack = 3 | health = 4
+| unicornpack = yes
+| '''Friendly level-up''' → Gain 1 extra shop reward.
+| '''Friendly level-up''' → Gain 2 extra shop reward.
+| '''Friendly level-up''' → Gain 3 extra shop reward.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Ouroboros|size=40px}}
+| attack = 2 | health = 4
+| unicornpack = yes
+| '''Roll''' → Give unfrozen shop pets +1 {{IconSAP|health|nolink=yes}} until end of battle for each roll this turn.
+| '''Roll''' → Give unfrozen shop pets +2 {{IconSAP|health|nolink=yes}} until end of battle for each roll this turn.
+| '''Roll''' → Give unfrozen shop pets +3 {{IconSAP|health|nolink=yes}} until end of battle for each roll this turn.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Griffin|size=40px}}
+| attack = 4 | health = 3
+| unicornpack = yes
+| '''Sell''' → Summon a level 1 {{IconSAP|Treasure Map}} that leads to a {{IconSAP|Treasure Chest}}.
+| '''Sell''' → Summon a level 2 {{IconSAP|Treasure Map}} that leads to a {{IconSAP|Treasure Chest}}.
+| '''Sell''' → Summon a level 3 {{IconSAP|Treasure Map}} that leads to a {{IconSAP|Treasure Chest}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Foo Dog|size=40px}}
+| attack = 3 | health = 5
+| unicorncustompack = yes
+| '''Buy''' → Give future shop pets from the next tier permanent +2 {{IconSAP|health|nolink=yes}}.
+| '''Buy''' → Give future shop pets from the next tier permanent +4 {{IconSAP|health|nolink=yes}}.
+| '''Buy''' → Give future shop pets from the next tier permanent +6 {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Tree Ent|size=40px}}
+| attack = 2 | health = 5
+| unicorncustompack = yes
+| '''Start of battle''' → If this has 6 or less attack, gain {{IconSAP|Coconut|name=Coconut Perk}}.
+| '''Start of battle''' → If this has 12 or less attack, gain {{IconSAP|Coconut|name=Coconut Perk}}.
+| '''Start of battle''' → If this has 18 or less attack, gain {{IconSAP|Coconut|name=Coconut Perk}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Slime|size=40px}}
+| attack = 3 | health = 3
+| unicorncustompack = yes
+| '''Faint''' → Summon one 2/2 {{IconSAP|Smaller Slime|name=Slime}} for each two battles fought.
+| '''Faint''' → Summon one 4/4 {{IconSAP|Smaller Slime|name=Slime}} for each two battles fought.
+| '''Faint''' → Summon one 6/6 {{IconSAP|Smaller Slime|name=Slime}} for each two battles fought.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Pegasus|size=40px}}
+| attack = 1 | health = 3
+| unicorncustompack = yes
+| '''Friend summoned''' → Give three friends +1 {{IconSAP|attack|nolink=yes}} until end of battle.
+| '''Friend summoned''' → Give three friends +2 {{IconSAP|attack|nolink=yes}} until end of battle.
+| '''Friend summoned''' → Give three friends +3 {{IconSAP|attack|nolink=yes}} until end of battle.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Deer Lord|size=40px}}
+| attack = 4 | health = 3
+| unicorncustompack = yes
+| '''End turn''' → Knock out the nearest friend ahead and stock one free {{IconSAP|Bacon}}.
+| '''End turn''' → Knock out the nearest friend ahead and stock two free {{IconSAP|Bacon|name=Bacons}}.
+| '''End turn''' → Knock out the nearest friend ahead and stock three free {{IconSAP|Bacon|name=Bacons}}.
+}}
+
+{{:Pets/row
 | pet = {{IconSAP|Baboon|size=40px}}
 | attack = 1 | health = 2
 | goldenpack = yes
-| '''End Turn''' → Give one random friend from the current shop tier +1 {{IconSAP|attack|nolink=yes}} and + 2 {{IconSAP|health|nolink=yes}}.
-| '''End Turn''' → Give one random friend from the current shop tier +2 {{IconSAP|attack|nolink=yes}} and + 4 {{IconSAP|health|nolink=yes}}.
-| '''End Turn''' → Give one random friend from the current shop tier +3 {{IconSAP|attack|nolink=yes}} and + 6 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give one random friend from the current shop tier +1 {{IconSAP|attack|nolink=yes}} and + 2 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give one random friend from the current shop tier +2 {{IconSAP|attack|nolink=yes}} and + 4 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give one random friend from the current shop tier +3 {{IconSAP|attack|nolink=yes}} and + 6 {{IconSAP|health|nolink=yes}}.
 }}
 
 {{:Pets/row
@@ -888,9 +1257,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Flying Fish|size=40px}}
 | attack = 3 | health = 2
 | goldenpack = yes
-| '''Friend summoned''' → If in battle, give it +2 {{IconSAP|experience}}. Works 2 times per turn.
-| '''Friend summoned''' → If in battle, give it +4 {{IconSAP|experience}}. Works 2 times per turn.
-| '''Friend summoned''' → If in battle, give it +6 {{IconSAP|experience}}. Works 2 times per turn.
+| '''Friend summoned''' → If in battle, give it +2 {{IconSAP|experience|nolink=yes}}. Works 2 times per turn.
+| '''Friend summoned''' → If in battle, give it +4 {{IconSAP|experience|nolink=yes}}. Works 2 times per turn.
+| '''Friend summoned''' → If in battle, give it +6 {{IconSAP|experience|nolink=yes}}. Works 2 times per turn.
 }}
 
 {{:Pets/row
@@ -1014,9 +1383,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Pug|size=40px}}
 | attack = 5 | health = 2
 | starpack = yes
-| '''Start of battle''' → Give friend ahead +1 {{IconSAP|experience|nolink=yes}}.
-| '''Start of battle''' → Give friend ahead +2 {{IconSAP|experience|nolink=yes}}.
-| '''Start of battle''' → Give friend ahead +3 {{IconSAP|experience|nolink=yes}}.
+| '''Start of battle''' → Give the nearest friend ahead +1 {{IconSAP|experience|nolink=yes}}.
+| '''Start of battle''' → Give the nearest friend ahead +2 {{IconSAP|experience|nolink=yes}}.
+| '''Start of battle''' → Give the nearest friend ahead +3 {{IconSAP|experience|nolink=yes}}.
 }}
 
 {{:Pets/row
@@ -1039,11 +1408,11 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 
 {{:Pets/row
 | pet = {{IconSAP|Flying Squirrel|size=40px}}
-| attack = 3 | health = 3
+| attack = 4 | health = 3
 | puppypack = yes
-| '''Toy broke''' → Re-summon it and gain +1 {{IconSAP|attack|nolink=yes}}.
-| '''Toy broke''' → Re-summon it and gain +2 {{IconSAP|attack|nolink=yes}}.
-| '''Toy broke''' → Re-summon it and gain +3 {{IconSAP|attack|nolink=yes}}.
+| '''Friendly [[Toys|toy]] broke''' → Re-summon the Toy, but its level can max be kept at 1.
+| '''Friendly [[Toys|toy]] broke''' → Re-summon the Toy, but its level can max be kept at 2.
+| '''Friendly [[Toys|toy]] broke''' → Re-summon the Toy, but its level can max be kept at 3.
 }}
 
 {{:Pets/row
@@ -1056,12 +1425,21 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 }}
 
 {{:Pets/row
+| pet = {{IconSAP|Hare|size=40px}}
+| attack = 3 | health = 4
+| puppypack = yes
+| '''Before attack''' → Copy food perk from one random enemy. Works 1 time per battle.
+| '''Before attack''' → Copy food perk from one random enemy. Works 2 time per battle.
+| '''Before attack''' → Copy food perk from one random enemy. Works 3 time per battle.
+}}
+
+{{:Pets/row
 | pet = {{IconSAP|Hatching Chick|size=40px}}
 | attack = 2 | health = 2
 | puppypack = yes
-| '''End turn''' → Give the nearest friend ahead +4 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}} until end of battle.
+| '''End turn''' → Give the nearest friend ahead +3 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}} until end of battle.
 | '''End turn''' → Give the nearest friend ahead +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
-| '''Start of turn''' → Give the nearest friend ahead +1 {{IconSAP|experience|nolink=yes}}.
+| '''End turn''' → Give the nearest friend ahead +1 {{IconSAP|experience|nolink=yes}}.
 }}
 
 {{:Pets/row
@@ -1084,7 +1462,7 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 
 {{:Pets/row
 | pet = {{IconSAP|Owl|size=40px}}
-| attack = 4 | health = 4
+| attack = 1 | health = 2
 | puppypack = yes
 | '''Start of turn''' → Summon one level 1 {{IconSAP|Mouse}}.
 | '''Start of turn''' → Summon one level 2 {{IconSAP|Mouse}}.
@@ -1110,15 +1488,6 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 }}
 
 {{:Pets/row
-| pet = {{IconSAP|Raccoon|size=40px}}
-| attack = 3 | health = 2
-| puppypack = yes | weeklypack = yes
-| '''Before attack''' → Steal held food from the nearest enemy ahead. Works 1 time per battle.
-| '''Before attack''' → Steal held food from the nearest enemy ahead. Works 2 times per battle.
-| '''Before attack''' → Steal held food from the nearest enemy ahead. Works 3 times per battle.
-}}
-
-{{:Pets/row
 | pet = {{IconSAP|Tropical Fish|size=40px}}
 | attack = 2 | health = 4
 | puppypack = yes
@@ -1140,9 +1509,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Bear|size=40px}}
 | attack = 3 | health = 5
 | weeklypack = yes
-| '''Before faint''' → Give {{IconSAP|Honey|name=Honey Perk}} to all pets that are one space away.
-| '''Before faint''' → Give {{IconSAP|Honey|name=Honey Perk}} to all pets that are two spaces away.
-| '''Before faint''' → Give {{IconSAP|Honey|name=Honey Perk}} to all pets that are three spaces away.
+| '''Faint''' → Give {{IconSAP|Honey|name=Honey Perk}} to all pets within one space.
+| '''Faint''' → Give {{IconSAP|Honey|name=Honey Perk}} to all pets within two spaces.
+| '''Faint''' → Give {{IconSAP|Honey|name=Honey Perk}} to all pets within three spaces.
 }}
 
 {{:Pets/row
@@ -1281,12 +1650,147 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 }}
 
 {{:Pets/row
+| pet = {{IconSAP|Kraken|size=40px}}
+| attack = 3 | health = 6
+| unicornpack = yes
+| '''Start of battle''' → Remove 20% {{IconSAP|health|nolink=yes}} from ALL other pets.
+| '''Start of battle''' → Remove 40% {{IconSAP|health|nolink=yes}} from ALL other pets.
+| '''Start of battle''' → Remove 60% {{IconSAP|health|nolink=yes}} from ALL other pets.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Visitor|size=40px}}
+| attack = 5 | health = 4
+| unicornpack = yes
+| '''Faint''' → Make ALL pets within one space {{IconSAP|Exposed}}.
+| '''Faint''' → Make ALL pets within two spaces {{IconSAP|Exposed}}.
+| '''Faint''' → Make ALL pets within three spaces {{IconSAP|Exposed}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Vampire Bat|size=40px}}
+| attack = 2 | health = 5
+| unicornpack = yes
+| '''Enemy gained ailment''' → Deal 3 {{IconSAP|damage|nolink=yes}} to it and gain damage as {{IconSAP|health|nolink=yes}}.
+| '''Enemy gained ailment''' → Deal 6 {{IconSAP|damage|nolink=yes}} to it and gain damage as {{IconSAP|health|nolink=yes}}.
+| '''Enemy gained ailment''' → Deal 9 {{IconSAP|damage|nolink=yes}} to it and gain damage as {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Tiger Bug|size=40px}}
+| attack = 4 | health = 2
+| unicornpack = yes
+| '''Empty front space''' → Jump to the front and deal 3 {{IconSAP|damage|nolink=yes}} to the two first enemies.
+| '''Empty front space''' → Jump to the front and deal 6 {{IconSAP|damage|nolink=yes}} to the two first enemies.
+| '''Empty front space''' → Jump to the front and deal 9 {{IconSAP|damage|nolink=yes}} to the two first enemies.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Tatzelwurm|size=40px}}
+| attack = 3 | health = 4
+| unicornpack = yes
+| '''Friend ahead faints''' → Deal 2 {{IconSAP|damage|nolink=yes}} for each of its level to one random enemy.
+| '''Friend ahead faints''' → Deal 4 {{IconSAP|damage|nolink=yes}} for each of its level to one random enemy.
+| '''Friend ahead faints''' → Deal 6 {{IconSAP|damage|nolink=yes}} for each of its level to one random enemy.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Cyclops|size=40px}}
+| attack = 4 | health = 5
+| unicornpack = yes
+| '''Friend level-up''' → Give it +2 {{IconSAP|mana}} and +1 {{IconSAP|experience|nolink=yes}}.
+| '''Friend level-up''' → Give it +4 {{IconSAP|mana}} and +2 {{IconSAP|experience|nolink=yes}}.
+| '''Friend level-up''' → Give it +6 {{IconSAP|mana}} and +3 {{IconSAP|experience|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Chimera|size=40px}}
+| attack = 3 | health = 3
+| unicornpack = yes
+| '''Faint''' → Spend {{IconSAP|mana}} to summon one {{IconSAP|Lion (Chimera)|name=pet}} with +1 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} per mana.
+| '''Faint''' → Spend {{IconSAP|mana}} to summon two pets {{IconSAP|Lion (Chimera)|mode=image}} {{IconSAP|Goat (Chimera)|name=pets}} with +1 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} per mana.
+| '''Faint''' → Spend {{IconSAP|mana}} to summon three pets {{IconSAP|Lion (Chimera)|mode=image}} {{IconSAP|Goat (Chimera)|mode=image}} {{IconSAP|Snake (Chimera)|name=pets}} with +1 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} per mana.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Roc|size=40px}}
+| attack = 4 | health = 4
+| unicornpack = yes
+| '''Start of battle''' → Give one random friend ahead +2 {{IconSAP|mana}}. Triggers 3 times.
+| '''Start of battle''' → Give one random friend ahead +2 {{IconSAP|mana}}. Triggers 6 times.
+| '''Start of battle''' → Give one random friend ahead +2 {{IconSAP|mana}}. Triggers 9 times.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Worm of Sand|size=40px}}
+| attack = 1 | health = 4
+| unicornpack = yes
+| '''Roll 6 times''' → Give the two highest tier friends +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}}.
+| '''Roll 6 times''' → Give the two highest tier friends +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
+| '''Roll 6 times''' → Give the two highest tier friends +3 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Abomination|size=40px}}
+| attack = 6 | health = 3
+| unicornpack = yes
+| '''End turn''' → Swallow and copy the left-most '''Start of battle''' shop pet until end of battle.
+| '''End turn''' → Swallow and copy the two left-most '''Start of battle''' shop pets until end of battle.
+| '''End turn''' → Swallow and copy the three left-most '''Start of battle''' shop pets until end of battle.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Fairy|size=40px}}
+| attack = 1 | health = 1
+| unicorncustompack = yes
+| '''Buy''' → Choose one level 1 wondrous {{IconSAP|toys|mode=text|name=toy}}.
+| '''Buy''' → Choose one level 2 wondrous {{IconSAP|toys|mode=text|name=toy}}.
+| '''Buy''' → Choose one level 3 wondrous {{IconSAP|toys|mode=text|name=toy}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Rootling|size=40px}}
+| attack = 1 | health = 5
+| unicorncustompack = yes
+| '''End turn''' → Give two friends with less health than this +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give two friends with less health than this +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give two friends with less health than this +3 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Anubis|size=40px}}
+| attack = 3 | health = 4
+| unicorncustompack = yes
+| '''Start of battle''' → Activate tier 2 or lower '''Faint''' friends front-to-back.
+| '''Start of battle''' → Activate tier 4 or lower '''Faint''' friends front-to-back.
+| '''Start of battle''' → Activate tier 6 or lower '''Faint''' friends front-to-back.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Old Mouse|size=40px}}
+| attack = 1 | health = 2
+| unicorncustompack = yes
+| '''End turn''' → Summon one random level 1 nostalgic {{IconSAP|toys|mode=text|name=toy}}.
+| '''End turn''' → Summon one random level 2 nostalgic {{IconSAP|toys|mode=text|name=toy}}.
+| '''End turn''' → Summon one random level 3 nostalgic {{IconSAP|toys|mode=text|name=toy}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Hippocampus|size=40px}}
+| attack = 2 | health = 4
+| unicorncustompack = yes
+| '''Friend gains health''' → Give it +1 {{IconSAP|attack|nolink=yes}}. Double in battle.
+| '''Friend gains health''' → Give it +2 {{IconSAP|attack|nolink=yes}}. Double in battle.
+| '''Friend gains health''' → Give it +3 {{IconSAP|attack|nolink=yes}}. Double in battle.
+}}
+
+{{:Pets/row
 | pet = {{IconSAP|Cockatoo|size=40px}}
 | attack = 4 | health = 2
 | goldenpack = yes
-| '''Buy''' → Give two random '''Faint''' friends +2 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}}.
-| '''Buy''' → Give two random '''Faint''' friends +4 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
-| '''Buy''' → Give two random '''Faint''' friends +6 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}}.
+| '''Buy''' → Give one random '''Faint''' friend +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
+| '''Buy''' → Give one random '''Faint''' friend +4 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}}.
+| '''Buy''' → Give one random '''Faint''' friend +6 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
 }}
 
 {{:Pets/row
@@ -1383,9 +1887,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Blobfish|size=40px}}
 | attack = 2 | health = 6
 | starpack = yes
-| '''Before faint''' → Give the nearest friend behind +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} and +1 {{IconSAP|experience|nolink=yes}}.
-| '''Before faint''' → Give the nearest friend behind +4 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}} and +2 {{IconSAP|experience|nolink=yes}}.
-| '''Before faint''' → Give the nearest friend behind +6 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}} and +3 {{IconSAP|experience|nolink=yes}}.
+| '''Faint''' → Give the nearest friend behind +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} and +1 {{IconSAP|experience|nolink=yes}}.
+| '''Faint''' → Give the nearest friend behind +4 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}} and +2 {{IconSAP|experience|nolink=yes}}.
+| '''Faint''' → Give the nearest friend behind +6 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}} and +3 {{IconSAP|experience|nolink=yes}}.
 }}
 
 {{:Pets/row
@@ -1444,7 +1948,7 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 
 {{:Pets/row
 | pet = {{IconSAP|Platypus|size=40px}}
-| attack = 5 | health = 2
+| attack = 2 | health = 2
 | starpack = yes
 | '''Sell & Faint''' → Summon one 3/3 level 1 {{IconSAP|Duck}} and {{IconSAP|Beaver}}.
 | '''Sell & Faint''' → Summon one 6/6 level 2 {{IconSAP|Duck}} and {{IconSAP|Beaver}}.
@@ -1626,9 +2130,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Cow|size=40px}}
 | attack = 4 | health = 6
 | turtlepack = yes
-| '''Buy''' → Replace food shop with 2 free {{IconSAP|Milk|size=x25px}} that gives +1 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
-| '''Buy''' → Replace food shop with 2 free {{IconSAP|Milk|size=x25px}} that gives +2 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}}.
-| '''Buy''' → Replace food shop with 2 free {{IconSAP|Milk|size=x25px}} that gives +3 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
+| '''Buy''' → Replace food shop with two free {{IconSAP|Milk|size=x25px}}.
+| '''Buy''' → Replace food shop with two free Better {{IconSAP|Milk|size=x25px}}.
+| '''Buy''' → Replace food shop with two free Best {{IconSAP|Milk|size=x25px}}.
 }}
 
 {{:Pets/row
@@ -1704,6 +2208,150 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 }}
 
 {{:Pets/row
+| pet = {{IconSAP|Red Dragon|size=40px}}
+| attack = 3 | health = 7
+| unicornpack = yes
+| '''Start of Battle''' → Make the last enemy {{IconSAP|Crisp}}.
+| '''Start of Battle''' → Make the two last enemies {{IconSAP|Crisp}}.
+| '''Start of Battle''' → Make the three last enemies {{IconSAP|Crisp}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Unicorn|size=40px}}
+| attack = 2 | health = 4
+| unicornpack = yes
+| '''Friend gained ailment''' → Replace it with permanent +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}. Works 1 time per turn.
+| '''Friend gained ailment''' → Replace it with permanent +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}. Works 2 times per turn.
+| '''Friend gained ailment''' → Replace it with permanent +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}. Works 3 times per turn.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Loveland Frogman|size=40px}}
+| attack = 1 | health = 5
+| unicornpack = yes
+| '''Friend jumped''' → Give it permanent +1 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
+| '''Friend jumped''' → Give it permanent +2 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}}.
+| '''Friend jumped''' → Give it permanent +3 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Salmon of Knowledge|size=40px}}
+| attack = 5 | health = 5
+| unicornpack = yes
+| '''Start of battle''' → Give the two front-most friends AND enemies +2 {{IconSAP|experience|nolink=yes}}.
+| '''Start of battle''' → Give the two front-most friends AND enemies +4 {{IconSAP|experience|nolink=yes}}.
+| '''Start of battle''' → Give the two front-most friends AND enemies +6 {{IconSAP|experience|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Jersey Devil|size=40px}}
+| attack = 5 | health = 4
+| unicornpack = yes
+| '''Friend Summoned''' → Give it +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}} for each level 3 pet sold this game.
+| '''Friend Summoned''' → Give it +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} for each level 3 pet sold this game.
+| '''Friend Summoned''' → Give it +3 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}} for each level 3 pet sold this game.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Pixiu|size=40px}}
+| attack = 4 | health = 5
+| unicornpack = yes
+| '''Faint''' → Spend 6 {{IconSAP|mana}} to gain +3 {{IconSAP|gold}} next turn.
+| '''Faint''' → Spend 6 {{IconSAP|mana}} to gain +6 {{IconSAP|gold}} next turn.
+| '''Faint''' → Spend 6 {{IconSAP|mana}} to gain +9 {{IconSAP|gold}} next turn.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Kitsune|size=40px}}
+| attack = 3 | health = 7
+| unicornpack = yes
+| '''Friend Faints''' → transfer all friendly {{IconSAP|mana}} +2 to the nearest friend ahead.
+| '''Friend Faints''' → transfer all friendly {{IconSAP|mana}} +4 to the nearest friend ahead.
+| '''Friend Faints''' → transfer all friendly {{IconSAP|mana}} +6 to the nearest friend ahead.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Nessie|size=40px}}
+| attack = 2 | health = 4
+| unicornpack = yes
+| '''Faint''' → Summon one {{IconSAP|Nessie?|name=Nessie}} with +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}} for each roll this turn, up to 10.
+| '''Faint''' → Summon one {{IconSAP|Nessie?|name=Nessie}} with +4 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}} for each roll this turn, up to 10.
+| '''Faint''' → Summon one {{IconSAP|Nessie?|name=Nessie}} with +6 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}} for each roll this turn, up to 10.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Bad Dog|size=40px}}
+| attack = 3 | health = 3
+| unicornpack = yes
+| '''Buy''' → Choose one level 1 {{IconSAP|toys|mode=text|name=toy}} that brings doom and chaos!
+| '''Buy''' → Choose one level 2 {{IconSAP|toys|mode=text|name=toy}} that brings doom and chaos!
+| '''Buy''' → Choose one level 3 {{IconSAP|toys|mode=text|name=toy}} that brings doom and chaos!
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Werewolf|size=40px}}
+| attack = 6 | health = 6
+| unicornpack = yes
+| '''Start of battle''' → If turn number is even, gain +100% {{IconSAP|attack|nolink=yes}} and +100% {{IconSAP|health|nolink=yes}}.
+| '''Start of battle''' → If turn number is even, gain +200% {{IconSAP|attack|nolink=yes}} and +200% {{IconSAP|health|nolink=yes}}.
+| '''Start of battle''' → If turn number is even, gain +300% {{IconSAP|attack|nolink=yes}} and +300% {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Boitata|size=40px}}
+| attack = 2 | health = 9
+| unicorncustompack = yes
+| '''Before Attack''' → Make the target {{IconSAP|Crisp}}. Works 1 time per battle.
+| '''Before Attack''' → Make the target {{IconSAP|Crisp}}. Works 1 times per battle.
+| '''Before Attack''' → Make the target {{IconSAP|Crisp}}. Works 3 times per battle.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Kappa|size=40px}}
+| attack = 4 | health = 5
+| unicorncustompack = yes
+| '''Faint''' → Summon one random 14/16 pet from tier 3 up front for you and the opponent.
+| '''Faint''' → Summon two random 14/16 pets from tier 3 up front for you and the opponent.
+| '''Faint''' → Summon three random 14/16 pets from tier 3 up front for you and the opponent.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Mimic|size=40px}}
+| attack = 3 | health = 6
+| unicorncustompack = yes
+| '''Three friends faint''' → Gain +1 {{IconSAP|gold}} on next turn.
+| '''Three friends faint''' → Gain +2 {{IconSAP|gold}} on next turn.
+| '''Three friends faint''' → Gain +3 {{IconSAP|gold}} on next turn.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Nurikabe|size=40px}}
+| attack = 5 | health = 6
+| unicorncustompack = yes
+| Takes 4 less damage. Works 3 times per turn.
+| Takes 8 less damage. Works 3 times per turn.
+| Takes 12 less damage. Works 3 times per turn.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Tandgnost|size=40px}}
+| attack = 5 | health = 5
+| unicorncustompack = yes
+| '''Buy''' → Give future {{IconSAP|Tandgrisner}} +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
+| '''Buy''' → Give future {{IconSAP|Tandgrisner}} +4 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}}.
+| '''Buy''' → Give future {{IconSAP|Tandgrisner}} +6 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Tandgrisner|size=40px}}
+| attack = 5 | health = 5
+| unicorncustompack = yes
+| '''Buy''' → Give future {{IconSAP|Tandgnost}} +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
+| '''Buy''' → Give future {{IconSAP|Tandgnost}} +4 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}}.
+| '''Buy''' → Give future {{IconSAP|Tandgnost}} +6 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
 | pet = {{IconSAP|Beluga Whale|size=40px}}
 | attack = 3 | health = 8
 | goldenpack = yes
@@ -1725,9 +2373,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Crane|size=40px}}
 | attack = 6 | health = 5
 | goldenpack = yes
-| '''Friend ahead hurt''' → Give it {{IconSAP|Melon|name=Melon Perk}} and +5 {{IconSAP|attack|nolink=yes}}. Works 1 time per turn.
-| '''Friend ahead hurt''' → Give it {{IconSAP|Melon|name=Melon Perk}} and +5 {{IconSAP|attack|nolink=yes}}. Works 2 times per turn.
-| '''Friend ahead hurt''' → Give it {{IconSAP|Melon|name=Melon Perk}} and +5 {{IconSAP|attack|nolink=yes}}. Works 3 times per turn.
+| '''Friend ahead hurt''' → Give it {{IconSAP|Melon}} perk and +5 {{IconSAP|attack|nolink=yes}}. Works 1 time per turn.
+| '''Friend ahead hurt''' → Give it {{IconSAP|Melon}} perk and +5 {{IconSAP|attack|nolink=yes}}. Works 2 times per turn.
+| '''Friend ahead hurt''' → Give it {{IconSAP|Melon}} perk and +5 {{IconSAP|attack|nolink=yes}}. Works 3 times per turn.
 }}
 
 {{:Pets/row
@@ -1807,8 +2455,8 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | attack = 6 | health = 4
 | starpack = yes
 | '''End turn''' → Steal the right-most shop food.
-| '''End turn''' → Steal the right-most shop food and double its {{IconSAP|attack|nolink=yes}} and {{IconSAP|health|nolink=yes}} effects.
-| '''End turn''' → Steal the right-most shop food and triple its {{IconSAP|attack|nolink=yes}} and {{IconSAP|health|nolink=yes}} effects.
+| '''End turn''' → Steal the right-most shop food and double its attack and health effects.
+| '''End turn''' → Steal the right-most shop food and triple its attack and health effects.
 }}
 
 {{:Pets/row
@@ -1842,18 +2490,18 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Shoebill|size=40px}}
 | attack = 2 | health = 4
 | starpack = yes
-| '''End turn''' → Give {{IconSAP|Strawberry|name=Strawberry friend}} +1 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
-| '''End turn''' → Give {{IconSAP|Strawberry|name=Strawberry friend}} +2 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}}.
-| '''End turn''' → Give {{IconSAP|Strawberry|name=Strawberry friend}} +3 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give {{IconSAP|Strawberry}} friends +1 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give {{IconSAP|Strawberry}} friends +2 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give {{IconSAP|Strawberry}} friends +3 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
 }}
 
 {{:Pets/row
 | pet = {{IconSAP|Siberian Husky|size=40px}}
 | attack = 4 | health = 3
 | starpack = yes
-| '''End turn''' → Give with no held food +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}}.
-| '''End turn''' → Give with no held food +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
-| '''End turn''' → Give with no held food +3 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give friends with no food perks +1 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give friends with no food perks +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give friends with no food perks +3 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}}.
 }}
 
 {{:Pets/row
@@ -1932,9 +2580,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Mosasaurus|size=40px}}
 | attack = 5 | health = 6
 | puppypack = yes
-| '''Toy broke''' → Give adjacent friends +3 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}}.
-| '''Toy broke''' → Give adjacent friends +6 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
-| '''Toy broke''' → Give adjacent friends +9 {{IconSAP|attack|nolink=yes}} and +9 {{IconSAP|health|nolink=yes}}.
+| '''Toy broke''' → Give adjacent friends +2 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}}.
+| '''Toy broke''' → Give adjacent friends +4 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
+| '''Toy broke''' → Give adjacent friends +6 {{IconSAP|attack|nolink=yes}} and +9 {{IconSAP|health|nolink=yes}}.
 }}
 
 {{:Pets/row
@@ -1995,9 +2643,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Hyena|size=40px}}
 | attack = 5 | health = 5
 | weeklypack = yes
-| '''Start of battle''' → Swap {{IconSAP|attack|nolink=yes}} and {{IconSAP|health|nolink=yes}} of all pets.
-| '''Start of battle''' → Shuffle positions of all pets.
-| '''Start of battle''' → Swap {{IconSAP|attack|nolink=yes}} and {{IconSAP|health|nolink=yes}} and shuffle positions of all pets.
+| '''Start of battle''' → Swap attack and health of ALL pets.
+| '''Start of battle''' → Shuffle positions of ALL pets.
+| '''Start of battle''' → Swap attack and health and shuffle positions of ALL pets.
 }}
 
 {{:Pets/row
@@ -2007,6 +2655,15 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | '''End turn''' → Unfreeze shop and give one random friend +3 {{IconSAP|health|mode=image|nolink=yes}} for each tier 1 shop pet.
 | '''End turn''' → Unfreeze shop and give one random friend +3 {{IconSAP|health|mode=image|nolink=yes}} for each tier 1 shop pet.
 | '''End turn''' → Unfreeze shop and give one random friend +3 {{IconSAP|health|mode=image|nolink=yes}} for each tier 1 shop pet.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Raccoon|size=40px}}
+| attack = 4 | health = 5
+| weeklypack = yes
+| '''Before attack''' → Steal food perk from target. Works 1 time per battle.
+| '''Before attack''' → Steal food perk from target. Works 2 times per battle.
+| '''Before attack''' → Steal food perk from target. Works 3 times per battle.
 }}
 
 |}
@@ -2067,9 +2724,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Gorilla|size=40px}}
  | attack = 7 | health = 10
 | turtlepack = yes
-| '''Hurt''' → Gain {{IconSAP|Coconut}} 1 time per battle.
-| '''Hurt''' → Gain {{IconSAP|Coconut}} 2 times per battle.
-| '''Hurt''' → Gain {{IconSAP|Coconut}} 3 times per battle.
+| '''Hurt''' → Gain {{IconSAP|Coconut|Coconut Perk}} 1 time per battle.
+| '''Hurt''' → Gain {{IconSAP|Coconut|Coconut Perk}} 2 times per battle.
+| '''Hurt''' → Gain {{IconSAP|Coconut|Coconut Perk}} 3 times per battle.
 }}
 
 {{:Pets/row
@@ -2115,6 +2772,132 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | Adjacent friendly abilities deal 3 {{IconSAP|damage|nolink=yes}} extra.
 | Adjacent friendly abilities deal 6 {{IconSAP|damage|nolink=yes}} extra.
 | Adjacent friendly abilities deal 9 {{IconSAP|damage|nolink=yes}} extra.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Manticore|size=40px}}
+| attack = 7 | health = 4
+| unicornpack = yes
+| Enemy ailments are two times worse.
+| Enemy ailments are three times worse.
+| Enemy ailments are four times worse.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Phoenix|size=40px}}
+| attack = 8 | health = 8
+| unicornpack = yes
+| '''Faint''' → Make ANY three random pets {{IconSAP|Crisp}}, then summon one 6/6 {{IconSAP|Young Phoenix}}.
+| '''Faint''' → Make ANY six random pets {{IconSAP|Crisp}}, then summon one 12/12 {{IconSAP|Young Phoenix}}.
+| '''Faint''' → Make ANY nine random pets {{IconSAP|Crisp}}, then summon one 18/18 {{IconSAP|Young Phoenix}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Quetzalcoatl|size=40px}}
+| attack = 2 | health = 8
+| unicornpack = yes
+| '''End Turn''' → Give one random tier 3 or lower friend +2 {{IconSAP|experience|nolink=yes}}.
+| '''End Turn''' → Give one random tier 3 or lower friend +2 {{IconSAP|experience|nolink=yes}}. Triggers 2 times.
+| '''End Turn''' → Give one random tier 3 or lower friend +2 {{IconSAP|experience|nolink=yes}}. Triggers 3 times.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Team Spirit|size=40px}}
+| attack = 3 | health = 4
+| unicornpack = yes
+| '''Friend level-up''' → Give friends +1 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
+| '''Friend level-up''' → Give friends +2 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}}.
+| '''Friend level-up''' → Give friends +3 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Sleipnir|size=40px}}
+| attack = 8 | health = 5
+| unicornpack = yes
+| '''Start of battle''' → Give the front-most friend +1 {{IconSAP|mana}} for each 2 attack this has.
+| '''Start of battle''' → Give the two front-most friends +1 {{IconSAP|mana}} for each 2 attack this has.
+| '''Start of battle''' → Give the three front-most friends +1 {{IconSAP|mana}} for each 2 attack this has.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Sea Serpent|size=40px}}
+| attack = 6 | health = 6
+| unicornpack = yes
+| '''Faint''' → Spend {{IconSAP|mana}} to deal 2 {{IconSAP|damage|nolink=yes}} per mana to the most healthy enemy.
+| '''Faint''' → Spend {{IconSAP|mana}} to deal 2 {{IconSAP|damage|nolink=yes}} per mana to the two most healthy enemies.
+| '''Faint''' → Spend {{IconSAP|mana}} to deal 2 {{IconSAP|damage|nolink=yes}} per mana to the three most healthy enemies.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Yeti|size=40px}}
+| attack = 5 | health = 7
+| unicornpack = yes
+| '''End Turn''' → Roll three times while freezing duplicate pets.
+| '''End Turn''' → Roll six times while freezing duplicate pets.
+| '''End Turn''' → Roll nine times while freezing duplicate pets.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Cerberus|size=40px}}
+| attack = 8 | health = 8
+| unicornpack = yes
+| '''Empty front space''' → Summon one 8/8 {{IconSAP|Fire Pup}} up front. Works 1 time per turn.
+| '''Empty front space''' → Summon one 8/8 {{IconSAP|Fire Pup}} up front. Works 2 times per turn.
+| '''Empty front space''' → Summon one 8/8 {{IconSAP|Fire Pup}} up front. Works 3 times per turn.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Hydra|size=40px}}
+| attack = 10 | health = 6
+| unicornpack = yes
+| '''Faint''' → Summon one 5/5 {{IconSAP|Hydra Head|name=Head}} for each 10 attack this has.
+| '''Faint''' → Summon one 10/10 {{IconSAP|Hydra Head|name=Head}} for each 10 attack this has.
+| '''Faint''' → Summon one 15/15 {{IconSAP|Hydra Head|name=Head}} for each 10 attack this has.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Behemoth|size=40px}}
+| attack = 12 | health = 12
+| unicornpack = yes
+| '''End Turn''' → Gain +2 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}. Attack and health can go up to 100!
+| '''End Turn''' → Gain +4 {{IconSAP|attack|nolink=yes}} and +4 {{IconSAP|health|nolink=yes}}. Attack and health can go up to 100!
+| '''End Turn''' → Gain +6 {{IconSAP|attack|nolink=yes}} and +6 {{IconSAP|health|nolink=yes}}. Attack and health can go up to 100!
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Great One|size=40px}}
+| attack = 7 | health = 13
+| unicorncustompack = yes
+| '''Summoned''' → Deal 6 {{IconSAP|damage|nolink=yes}} to ALL other pets.
+| '''Summoned''' → Deal 12 {{IconSAP|damage|nolink=yes}} to ALL other pets.
+| '''Summoned''' → Deal 18 {{IconSAP|damage|nolink=yes}} to ALL other pets.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Leviathan|size=40px}}
+| attack = 6 | health = 10
+| unicorncustompack = yes
+| '''End turn''' → Summon four 10/10 {{IconSAP|Fish|name=Fishes}}.
+| '''End turn''' → Summon four 20/20 {{IconSAP|Fish|name=Fishes}}.
+| '''End turn''' → Summon four 30/30 {{IconSAP|Fish|name=Fishes}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Questing Beast|size=40px}}
+| attack = 7 | health = 9
+| unicorncustompack = yes
+| '''Sell''' → Choose one level 1 king {{IconSAP|toys|mode=text|name=toy}}.
+| '''Sell''' → Choose one level 2 king {{IconSAP|toys|mode=text|name=toy}}.
+| '''Sell''' → Choose one level 3 king {{IconSAP|toys|mode=text|name=toy}}.
+}}
+
+{{:Pets/row
+| pet = {{IconSAP|Cockatrice|size=40px}}
+| attack = 5 | health = 7
+| unicorncustompack = yes
+| '''Start of battle''' → Transform the back-most level 1 or lower enemy to a {{IconSAP|Rock}}.
+| '''Start of battle''' → Transform the back-most level 2 or lower enemy to a {{IconSAP|Rock}}.
+| '''Start of battle''' → Transform the back-most level 3 or lower enemy to a {{IconSAP|Rock}}.
 }}
 
 {{:Pets/row
@@ -2202,9 +2985,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Wildebeest|size=40px}}
 | attack = 8 | health = 6
 | goldenpack = yes
-| '''Before attack''' → Spend 4 {{IconSAP|Trumpet|name=trumpets}} to gain {{IconSAP|Coconut|Coconut Perk}}. Works 1 time per battle.
-| '''Before attack''' → Spend 4 {{IconSAP|Trumpet|name=trumpets}} to gain {{IconSAP|Coconut|Coconut Perk}}. Works 2 times per battle.
-| '''Before attack''' → Spend 4 {{IconSAP|Trumpet|name=trumpets}} to gain {{IconSAP|Coconut|Coconut Perk}}. Works 3 times per battle.
+| '''Before attack''' → Spend 4 {{IconSAP|Trumpet|name=trumpets}} to gain {{IconSAP|Coconut|name=Coconut Perk}}. Works 1 time per battle.
+| '''Before attack''' → Spend 4 {{IconSAP|Trumpet|name=trumpets}} to gain {{IconSAP|Coconut|name=Coconut Perk}}. Works 2 times per battle.
+| '''Before attack''' → Spend 4 {{IconSAP|Trumpet|name=trumpets}} to gain {{IconSAP|Coconut|name=Coconut Perk}}. Works 3 times per battle.
 }}
 
 {{:Pets/row
@@ -2337,9 +3120,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Mongoose|size=40px}}
 | attack = 4 | health = 3
 | puppypack = yes
-| '''Buy''' → Choose one level 1 toy from tier 6. 
-| '''Buy''' → Choose one level 2 toy from tier 6. 
-| '''Buy''' → Choose one level 3 toy from tier 6. 
+| '''Buy''' → Choose one level 1 toy from tier 6.
+| '''Buy''' → Choose one level 2 toy from tier 6.
+| '''Buy''' → Choose one level 3 toy from tier 6.
 }}
 
 
@@ -2374,9 +3157,9 @@ All Pets are available for use in Custom Packs as long as you own the the approp
 | pet = {{IconSAP|Tyrannosaurus|size=40px}}
 | attack = 6 | health = 4
 | puppypack = yes
-| '''End turn''' → Give three tier 5 friends or higher +2 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}}.
-| '''End turn''' → Give three tier 5 friends or higher +4 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
-| '''End turn''' → Give three tier 5 friends or higher +6 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give two tier 5 friends or higher +2 {{IconSAP|attack|nolink=yes}} and +1 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give two tier 5 friends or higher +4 {{IconSAP|attack|nolink=yes}} and +2 {{IconSAP|health|nolink=yes}}.
+| '''End turn''' → Give two tier 5 friends or higher +6 {{IconSAP|attack|nolink=yes}} and +3 {{IconSAP|health|nolink=yes}}.
 }}
 
 {{:Pets/row
