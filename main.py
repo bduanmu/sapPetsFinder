@@ -91,8 +91,13 @@ result = requests.get("https://superautopets.wiki.gg/wiki/File:Mantis Shrimp.png
 doc = BeautifulSoup(result.text, 'html.parser')
 images = doc.find_all("img")
 # print(images)
+starting_at = 0
+for i in range(len(pet_names)):
+    if pet_names[i] == "agfshsfhs":
+        starting_at = i
+        break
 pet_images = []
-for pet_name in pet_names:
+for pet_name in pet_names[starting_at:]:
     URL = "https://superautopets.wiki.gg/wiki/File:" + pet_name + ".png"
     result = requests.get(URL)
     doc = BeautifulSoup(result.text, 'html.parser')
@@ -101,7 +106,10 @@ for pet_name in pet_names:
     # pet_images.append("https://superautopets.wiki.gg" + doc[beg_ind + 5:doc.find('?', beg_ind + len(IMAGE_LINK_INDICATOR) + 1)])
     # print(URL)
 
-    name = doc.find_all("img")[1]['src']
+    names = doc.find_all("img")
+    if len(names) < 2:
+        break
+    name = names[1]["src"]
     pet_images.append("https://superautopets.wiki.gg" + name[:name.find('?')])
     print(name[:name.find('?')])
 
