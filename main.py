@@ -36,7 +36,7 @@ while line != '':
         for i in range(len(packs)):
             packs[i].strip()
             packs[i] = packs[i][:packs[i].find(PACK_INDICATOR)]
-            packs[i] = packs[i][0].upper() + packs[i][1:].rstrip("custom") + ' Pack'
+            packs[i] = (packs[i][0].upper() + packs[i][1:]).rstrip("custom") + ' Pack'
         if "Weekly Pack" in packs and len(packs) != 1:
             packs.remove("Weekly Pack")
         pet['pack'] = packs
@@ -69,13 +69,11 @@ while line != '':
 print(pets)
 pet_names = [pet['name'] for pet in pets]
 print(pet_names)
-pet_names_lower = [pet['name'].lower() for pet in pets]
-print(pet_names_lower)
-pet_indices = [i for i in range(len(pet_names_lower))]
-random.shuffle(pet_indices)
-print(pet_indices)
-print(len(pet_indices), len(pet_names_lower))
+print([pet['name'].lower() for pet in pets])
 print(pets[random.randint(1, 254)])
+answer_list = [i for i in range(len(pets))]
+random.shuffle(answer_list)
+print(answer_list)
 
 max_length = 0
 max_name = []
